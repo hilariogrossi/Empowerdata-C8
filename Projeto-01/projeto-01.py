@@ -13,7 +13,7 @@ pdf.add_page()
 
 pdf.set_font('Arial')
 
-#pdf.image('template.png', x=0, y=0)
+pdf.image('template.png', x=0, y=0)
 
 pdf.text(115, 145, projeto)
 pdf.text(115, 160, horas_previstas)
